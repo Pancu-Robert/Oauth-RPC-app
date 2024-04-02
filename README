@@ -17,3 +17,6 @@ Pancu Robert-George 344C3
     - fiecare functie preia datele trimise de client si le prelucreaza astfel
     incat sa intoarca rezultatele favorabile
 
+    Pentru rulare trebuie sa activam portmapper-ul cu comanda rpcbind, iar
+    apoi sa dam build la aplicatie folosind make -f Makefile.OAuth. In cele
+    din urma testarea se face prin rularea checker-ului: ./check.sh all.
