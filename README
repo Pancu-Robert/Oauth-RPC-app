@@ -1,0 +1,19 @@
+Pancu Robert-George 344C3
+
+    Client:
+    - citesc din fisierul de intrare pentru client operatiile si apelez o
+    functie care separa inputul in 3 tokeni pentru a putea opera mai usor
+    cu comenzile
+
+    - se apeleaza 2 functii specializate (de request sau de modify) in functie
+     de input
+
+    - in cele 2 functii se trateaza functiile speciale care fac apelul catre
+    server
+
+    Server:
+    - se citesc datele din fisierele date ca parametru si retin in structuri
+    de date declarate global
+    - fiecare functie preia datele trimise de client si le prelucreaza astfel
+    incat sa intoarca rezultatele favorabile
+
